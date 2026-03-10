@@ -1,0 +1,22 @@
+{
+  "name": "@openclaw/telegram-channel-reader",
+  "version": "0.1.0",
+  "description": "Lightweight Telegram channel reader for AI content pipelines",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "telegram": "^2.22.2",
+    "input": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  },
+  "license": "MIT"
+}
